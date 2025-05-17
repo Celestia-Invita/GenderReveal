@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image:url(fondo.jpeg);
+    background-image:url(fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:top;
@@ -24,13 +24,13 @@ body{
 .caja-t1{
     width: 100%;
     height: auto;
-    background-color:rgba(197, 191, 103, 0.185);
+    background-color:rgba(230, 217, 100, 0.185);
     margin:auto;
     margin-bottom: 1cm;
     margin-top: 1cm;
     border-style:double;
     border-width: 0.1cm;
-    border-color:rgba(217, 181, 173, 0.4) ;
+    border-color:rgba(230, 217, 100, 0.4) ;
    
 }
 
@@ -38,7 +38,7 @@ body{
     width: 85%;
     max-width: 500px;
     height: auto;
-    background-color:rgba(218, 215, 215, 0.5) ;
+    background-color:rgba(230, 217, 100, 0.185) ;
     border-color:#d9b5ad66 ;
     border-style:groove;
     border-width: 0.1cm;
@@ -50,7 +50,7 @@ body{
 
 .caja-t3{
     width: 100%;
-    background-color:rgb(196, 147, 160, 0.7) ;
+    background-color:rgba(230, 217, 100, 0.5) ;
     margin: auto;
     margin-bottom: 1cm;
     padding-bottom: 0.5cm;
@@ -59,7 +59,7 @@ body{
 .caja-t4{
     width: 100%;
     height: auto;
-    background-color:rgb(196, 147, 160) ;
+    background-color:rgb(230, 217, 100, 0.9) ;
 
     margin-bottom: -1cm;
 }
