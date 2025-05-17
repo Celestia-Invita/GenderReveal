@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image:url(fondo3.jpg);
+    background-image:url(fondo.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:top;
@@ -24,7 +24,7 @@ body{
 .caja-t1{
     width: 100%;
     height: auto;
-    background-color:rgba(218, 215, 215, 0.6);
+    background-color:rgba(197, 191, 103, 0.185);
     margin:auto;
     margin-bottom: 1cm;
     margin-top: 1cm;
