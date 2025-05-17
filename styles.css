@@ -51,7 +51,7 @@ body{
 
 .caja-t3{
     width: 100%;
-    background-color:rgba(230, 217, 150, 0.8) ;
+    background-color:rgba(237, 232, 208, 0.9) ;
     margin: auto;
     margin-bottom: 1cm;
     padding-bottom: 0.5cm;
@@ -60,7 +60,7 @@ body{
 .caja-t4{
     width: 100%;
     height: auto;
-    background-color:rgb(237, 232, 208, 0.9) ;
+    background-color:rgb(237, 232, 208, 0.95) ;
 
     margin-bottom: -1cm;
 }
@@ -141,9 +141,9 @@ h21{
     position: absolute;
     left: 38%;
     border-style: groove;
-    border-color: rgb(230, 217, 150);
+    border-color: rgb(237, 232, 208);
     border-width: 0.06cm;
-    background-color: rgb(236, 210, 222);
+    background-color: rgb(240, 229, 234);
     padding: 1%;
     padding-left: 3%;
     padding-right: 3%;
