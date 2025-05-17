@@ -21,13 +21,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 
 </head>
-<body>
+<body onclick="PlayAudio()">
    
 
     <div class="caja-t1">
         <h1 data-aos="zoom-in" data-aos-duration="2000">¡Hola familia!</h1> <br>
         <p class="inicial-L">Antoni y Eli</p>
-        <img src="AyE1.png" alt="AyE" width="400">
+        <img src="AyE1.png" alt="AyE" width="330">
         <p class="cursiva">te invitan a</p>
         <br>
     </div>
@@ -36,6 +36,27 @@
         <h1 data-aos="fade-down-right">Fiesta de Revelación de Género</h1>
         <br>
     </div>
+
+    <div class="caja-t3">
+        <h3>¿Qué título poner? o no poner nada</h3>
+        <div class="grid-container">
+            <div class="grid-item im-1"><img src="1.jpg" width="100%">  </div>
+            <div class="grid-item im-2"><img src="2.jpg" width="100%">  </div>
+            <div class="grid-item im-2"><img src="3.jpg" width="100%">  </div>
+            <div class="grid-item im-2"><img src="4.jpg" width="100%">  </div>
+        </div>
+    </div>
+
+    <div class="caja-t3">
+         <p class="inicial-L">Da clic para escuchar mi fuerte corazón</p>
+    </div>
+
+    <div class="caja-video">
+        <video controls width="90%">
+            <source src="latidos.mp4" type="video/mp4">
+        </video>
+    </div>
+    
 
      </div>
     <div class="caja-t1"  data-aos="fade-left"
@@ -65,20 +86,6 @@
     </div>
 
 
-    <div class="caja-t3">
-        <h3>Galería</h3>
-        <img src="camara.png" alt="imgcámara" width="120">
-        
-        <div class="grid-container">
-            <div class="grid-item im-1"><img src="G-1.jpg" width="100%">  </div>
-            <div class="grid-item im-2"><img src="G-2.jpg" width="100%">  </div>
-            <div class="grid-item im-3"><img src="G-3.jpg" width="100%">  </div>
-            <div class="grid-item im-4"><img src="G-4.jpg" width="100%">  </div>
-            <div class="grid-item im-5"><img src="G-5.jpg" width="100%">  </div>
-            <div class="grid-item im-6"><img src="G-6.jpg" width="100%">  </div>
-            <div class="grid-item im-7"><img src="G-7.jpg" width="100%">  </div>
-        </div>
-    </div>
     <div class="caja-t1" data-aos="fade-right"
      data-aos-offset="400"
      >
@@ -93,13 +100,13 @@
             <br>
             <img src="trebol4.png" alt="trebol4h" width="250">
             <br>( Salmo 127 3-5)
-            <br>
+            <br> <br>
         </p>
     </div>
 
     <div class="caja-t2" data-aos="zoom-in-down">
         <h2>Dress code</h2>
-        <img src="dress.png" alt="dresscode" width="100">
+        <img src="dress.png" alt="dresscode" width="270">
         <p class="contenido">Ponte una prenda rosa si crees que será niña o una azul si piensas que será niño</p>
         <p class="anotacion">  </p>
     </div>
@@ -128,5 +135,18 @@
             duration: 2000
         });
       </script>
+
+    <audio id="musica">
+        <source src="cancion.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        const audio = document.querySelector('audio');
+        audio.volume=0.3;
+    </script>
+    <script>
+        function PlayAudio(){
+            document.getElementById("musica").play();
+        }
+    </script>
 </body>
 </html>
