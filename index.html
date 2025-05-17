@@ -20,9 +20,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 
+
+    <title>Reproductor con imagen</title>
+  <style>
+    #icono-musica {
+      width:30%;
+      cursor: pointer;
+    }
+  </style>
+
+
 </head>
-<body onclick="PlayAudio()">
-   
+<body>
+  <div class="caja-t3">
+         <p class="inicial-L">Clic en el ícono para reproducir la música</p>
+    </div> 
+
+     <!-- Audio oculto -->
+  <audio id="musica" src="cancion.mp3" type="audio/mpeg"></audio>
+
+  <!-- Imagen que funciona como botón -->
+  <img id="icono-musica" src="play-musica.png" alt="Reproducir música">
+
+  <script>
+    const audio = document.getElementById('musica');
+    const icono = document.getElementById('icono-musica');
+
+    audio.volume = 0.2;
+
+    icono.addEventListener('click', () => {
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    });
+  </script>
 
     <div class="caja-t1">
         <h1 data-aos="zoom-in" data-aos-duration="2000">¡Hola familia!</h1> <br>
@@ -142,17 +175,6 @@
         });
       </script>
 
-    <audio id="musica">
-        <source src="cancion.mp3" type="audio/mpeg">
-    </audio>
-    <script>
-        const audio = document.querySelector('audio');
-        audio.volume=0.3;
-    </script>
-    <script>
-        function PlayAudio(){
-            document.getElementById("musica").play();
-        }
-    </script>
+   
 </body>
 </html>
