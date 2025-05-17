@@ -51,7 +51,7 @@ body{
 
 .caja-t3{
     width: 100%;
-    background-color:rgba(230, 217, 150, 0.6) ;
+    background-color:rgba(230, 217, 150, 0.8) ;
     margin: auto;
     margin-bottom: 1cm;
     padding-bottom: 0.5cm;
@@ -60,7 +60,7 @@ body{
 .caja-t4{
     width: 100%;
     height: auto;
-    background-color:rgb(230, 217, 160, 0.9) ;
+    background-color:rgb(237, 232, 208, 0.9) ;
 
     margin-bottom: -1cm;
 }
