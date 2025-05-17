@@ -13,7 +13,7 @@ body{
     background-image:url(fondo.jpg);
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-position:top;
+    background-position:0%;
     background-size:cover;
 }
 
