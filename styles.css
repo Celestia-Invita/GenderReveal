@@ -174,7 +174,7 @@ a{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-style: normal;
-    color: white;
+    color: rgb(72, 59, 255);
 }
 
 
@@ -212,7 +212,7 @@ h3{
 }
 
 h4{
-    color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -223,7 +223,7 @@ h4{
 }
 
 .p-conf{
-    color: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
