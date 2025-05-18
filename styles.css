@@ -264,6 +264,9 @@ h4{
 
 @media screen and (max-width: 600px) {
     /* Aquí van los estilos específicos para celulares */
+    h1 {
+        font-size: 60px;
+    }
 
     .caja-t2 {
         width: 90%;
