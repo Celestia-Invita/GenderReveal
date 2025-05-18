@@ -144,16 +144,11 @@ h5{
 }
 
 .h{
-    float:left;
-    position: absolute;
-    left: 38%;
+    width:25%;     
     border-style: groove;
     border-color: rgb(237, 232, 208);
     border-width: 0.06cm;
     background-color: rgb(240, 229, 234);
-    padding: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
 }
 
 .l{
