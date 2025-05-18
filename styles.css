@@ -262,3 +262,20 @@ h4{
     height: auto;
 }
 
+@media screen and (max-width: 600px) {
+    /* Aquí van los estilos específicos para celulares */
+
+    .caja-t2 {
+        width: 90%;
+    }
+
+    .h, .l {
+        position: static;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .grid-container {
+        padding: 5%;
+    }
+}
