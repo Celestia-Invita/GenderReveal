@@ -1,21 +1,28 @@
 
 
 
-*{
+* {
     margin: 0;
-    padding:0;
-    padding-top: 2%;
-    text-align: center;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-image:url(fondo.jpg);
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-position:0%;
-    background-size:cover;
+body {
+    padding-top: 2%;
+    text-align: center;
 }
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    padding-top: 2%;
+    text-align: center;
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .caja-video{
     width: auto;
@@ -124,7 +131,7 @@ h2{
     height: auto;
 }
 
-h21{
+h5{
     font-family:'Times New Roman', Times, serif;
     font-style:normal;
     font-weight:normal;
@@ -258,4 +265,25 @@ h4{
 .im-2{
     width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    /* Aquí van los estilos específicos para celulares */
+    h1 {
+        font-size: 40px;
+    }
+
+    .caja-t2 {
+        width: 90%;
+    }
+
+    .h, .l {
+        position: static;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .grid-container {
+        padding: 5%;
+    }
 }
